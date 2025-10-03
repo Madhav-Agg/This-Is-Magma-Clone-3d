@@ -43,6 +43,7 @@ html,body{
 
 #right-nav>button{
 /* position: absolute; */
+position: relative;
     border: 0.5px solid white;
     background-color: #0A46E7;
     color: white;   
@@ -50,12 +51,16 @@ html,body{
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 50px;
+  z-index: 1000;
+  transition: all ease 0.5s;
     
 }
 /* Add hover to the buttons */
-/* #right-nav>button:hover{
-    background-color: aqua;
-} */
+#right-nav > button:hover {
+  background-color: white;
+  color: #0947EA;
+}
+
 .bottom-page1{
     position: absolute;
     bottom: 8%;
