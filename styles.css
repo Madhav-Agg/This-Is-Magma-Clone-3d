@@ -501,3 +501,338 @@ position: relative;
 .page14-inner:hover .center14{
     height: 100%;
 }
+
+
+
+/* Responsive Typography */
+h1 {
+    font-size: clamp(2rem, 5vw, 6rem);
+}
+h2 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+}
+h4 {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+}
+p {
+    font-size: clamp(0.9rem, 1.2vw, 1.5rem);
+}
+
+/* Responsive Navigation */
+#page1>nav {
+    padding: 0px 20px;
+}
+
+#page1>nav>img {
+    max-height: 50px;
+}
+
+#right-nav>button {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    padding: 10px 20px;
+    margin: 8px;
+}
+
+/* Responsive Page 1 */
+.bottom-page1 {
+    width: 90%;
+    left: 5%;
+    height: auto;
+}
+
+.bottom-page1>h1 {
+    font-size: clamp(2.5rem, 8vw, 6rem);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.bottom-page1 .bottom-page1-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bottom-page1 .bottom-page1-inner>h4 {
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+.bottom-page1 .bottom-page1-inner>button {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    padding: 12px 25px;
+}
+
+/* Responsive Page 2, 4, 6 */
+#page2, #page4, #page6 {
+    min-height: 100vh;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+#page2>h2 {
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    margin-bottom: 20px;
+}
+
+#page2>h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    line-height: 1.4;
+}
+
+#page4>h4, #page6>h4 {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-bottom: 20px;
+}
+
+#page4>h1, #page6>h1 {
+    font-size: clamp(1.2rem, 3vw, 2.5rem);
+    line-height: 1.4;
+}
+
+/* Responsive Circle */
+.page7-cir {
+    width: clamp(120px, 16vw, 200px);
+    height: clamp(120px, 16vw, 200px);
+}
+
+/* Responsive Page 8 */
+.page8-bottom {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+}
+
+.page8-bottom>h1 {
+    font-size: clamp(2.5rem, 8vw, 6rem);
+    margin-bottom: 20px;
+}
+
+.page8-bottom>button {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+}
+
+/* Responsive Page 9 */
+#page9 {
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 5% 10%;
+    gap: 40px;
+}
+
+#page9>h1 {
+    font-size: clamp(2.5rem, 8vw, 6rem);
+    text-align: center;
+}
+
+#page9>img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-right: 0;
+}
+
+/* Responsive Page 10 */
+#page10 {
+    min-height: 100vh;
+    padding: 5% 10%;
+}
+
+.right10 {
+    width: 100%;
+    left: 0;
+}
+
+.right10-inner {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.right10-inner>h1 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    margin-bottom: 15px;
+}
+
+.right10-inner>p {
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    width: 100%;
+    line-height: 1.5;
+}
+
+/* Responsive Page 11 */
+#page11 {
+    min-height: 110vh;
+    padding: 5% 10%;
+}
+
+#page11>h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 40px;
+}
+
+.page11-inner {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.left11 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.left11>img {
+    width: 100%;
+    max-height: 300px;
+    margin-left: 0;
+}
+
+.right11 {
+    width: 100%;
+    left: 0;
+}
+
+.right11>h4 {
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    margin-bottom: 10px;
+}
+
+.right11>h1 {
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    left: 0;
+}
+
+/* Responsive Page 12 */
+#page12 {
+    min-height: 100vh;
+    padding: 5% 10%;
+}
+
+.page12-inner {
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.page12-inner>h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    margin-bottom: 20px;
+}
+
+.page12-inner>h4 {
+    font-size: clamp(1rem, 2vw, 1.8rem);
+    line-height: 1.5;
+}
+
+/* Responsive Page 13 */
+#page13 {
+    min-height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#page13>h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    margin-bottom: 30px;
+}
+
+#page13>button {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
+/* Responsive Page 14 */
+#page14 {
+    min-height: 70vh;
+}
+
+.page14-inner {
+    min-height: 120px;
+}
+
+.page14-inner>h1 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.page14-inner>i {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .bottom-page1 .bottom-page1-inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #page9 {
+        flex-direction: row;
+    }
+    
+    .page11-inner {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .left11 {
+        width: 35%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
+    
+    .right11 {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bottom-page1 {
+        width: 50%;
+    }
+    
+    #page2, #page4, #page6 {
+        align-items: start;
+        text-align: left;
+    }
+    
+    #page2>h2, #page2>h1, #page4>h4, #page4>h1, #page6>h4, #page6>h1 {
+        margin-left: 10vw;
+    }
+    
+    .right10 {
+        width: 60%;
+        left: 40%;
+    }
+    
+    .page12-inner {
+        text-align: left;
+        right: 10%;
+        top: 40%;
+    }
+    
+    #page13 {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    #page1>nav {
+        padding: 0px 15px;
+    }
+    
+    #right-nav>button {
+        padding: 8px 15px;
+        margin: 4px;
+    }
+    
+    .bottom-page1 {
+        left: 5%;
+        width: 90%;
+    }
+    
+    .page8-bottom {
+        width: 100%;
+        padding: 0 5%;
+    }
+}
